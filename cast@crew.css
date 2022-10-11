@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+table.tableizer-table {
+  font-size: 12px;
+  border: 1px solid #ccc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tableizer-table td {
+  padding: 4px;
+  margin: 3px;
+  border: 1px solid #ccc;
+}
+.tableizer-table th {
+  background-color: #104e8b;
+  color: #fff;
+  font-weight: bold;
+}
+.cast-container {
+  position: absolute;
+  top: 120px;
+  background-color: rgb(240, 212, 5);
+  margin-left: 10px;
+  height: 790px;
+  width: 430px;
+}
+
+.crew-container {
+  color: white;
+  position: absolute;
+  top: 120px;
+  margin-left: 550px;
+  background-color: rgb(8, 14, 97);
+  height: 1690px;
+  width: 330px;
+}
+.leadership-container {
+  color: white;
+  position: absolute;
+  top: 120px;
+  margin-left: 1000px;
+  background-color: rgb(13, 147, 16);
+  height: 720px;
+  width: 330px;
+}
+
+.cast-heading {
+  position: absolute;
+
+  left: 170px;
+  top: -50px;
+  font-family: "arial";
+  font-size: 30px;
+}
+
+.crew-heading {
+  position: absolute;
+  left: 130px;
+  font-family: "arial";
+  font-size: 30px;
+  color: black;
+  margin-top: -50px;
+}
+
+.leadership-heading {
+  position: absolute;
+  left: 100px;
+  font-family: "arial";
+  font-size: 30px;
+  color: black;
+  margin-top: -50px;
+}
+/*!........................................NAVBAR................................................*/
+
+.topnav {
+  background-color: lightgrey;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: orange;
+  color: white;
+}
+nav {
+  font-family: Arial;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
